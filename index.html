@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQueries.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sumana:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>TODO</title>
+  </head>
+  <div class="todoContainer flex flex-column">
+  <body>
+      <section class="todoSec">
+        <h1>
+          TODOLIST&ThickSpace;&ThickSpace;<ion-icon name="library-outline"></ion-icon>
+        </h1>
+        <div class="flex flex-column addingContainer">
+          <span>Enter your task:</span>
+          <div class="inputContainer flex">
+            <input
+            class="inbox"
+              type="text"
+              id="inputvalue"
+              placeholder="what needs to be done?"
+            />
+            <button class="add-btn btn">ADD</button>
+          </div>
+        </div>
+        <div class="listItemsContainer">
+          <ul class="listItems">
+            <!-- <li class="listItem flex">
+              <input id="checking" type="checkbox" class="checkBox">
+              WorkOut
+            </li> -->
+          </ul>
+        </div>
+        
+        <div class="pgAndCountContainer flex">
+        <div class="flex progressContainer flex-column">
+          <div class="progressBar">
+            <div class="progress">
+              
+            </div>
+          </div>
+            <div class="countContainer flex ">
+              <div class="totalCount line-height">0 Items
+               
+              </div>
+              <div class="taskCompletionCount">0/0</div>    
+            </div>
+      </div>
+        <button class="clear btn">Clear</button>
+        </div>
+        <div class="clearOptionsContainer" style="display: none;">
+          
+          <span>Do you want me to delete all or only the checked items?</span>
+        <div class="clearOptions" >
+          <button class="clearAll btn ">Clear All</button>
+          <button class="clearChecked btn">Clear Checked</button>
+        </div>
+        </div>
+      </section>
+      <!-- <footer class="copyrights">Created by Ramya Samantham...xoxo
+        
+      </footer>
+       -->
+    </div>
+  </body>
+  <script src="script.js"></script>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</html>

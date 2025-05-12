@@ -1,0 +1,47 @@
+@media (max-width: 450px) {
+  h1 {
+    font-size: 1.2rem;
+  }
+  .todoContainer {
+    padding: 1rem;
+    width: 90%;
+  }
+  .addingContainer {
+    margin-top: 0.8rem;
+    /* align-items: flex-end; */
+  }
+  .inputContainer {
+    flex-direction: column;
+    gap: 1rem;
+    border: none;
+  }
+  input[type="text"] {
+    padding: 0.5rem;
+    border: 1px solid #8f8f8f;
+  }
+  .pgAndCountContainer {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .progressContainer {
+    gap: -2rem;
+  }
+
+  .totalCount,
+  .taskCompletionCount {
+    line-height: 1rem;
+  }
+  .totalCount,
+  .taskCompletionCount,
+  span {
+    font-size: 0.6rem;
+  }
+
+  .listItem {
+    font-size: 0.7rem;
+  }
+  .listItem input[data-type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+  }
+}
